@@ -1,0 +1,11 @@
+.navbar .nav-link {
+  color: #ccc;
+  margin-right: 10px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar .nav-link.active {
+  color: #ED0779 !important;
+  border-bottom: 2px solid #ED0779;
+}
