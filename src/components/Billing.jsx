@@ -179,8 +179,8 @@ const handlePrintBill = async (selectedBill) => {
   
   return (
     <div className="p-4">
-      <h2>
-        <i className="bi bi-bag-fill me-2" />
+      <h2 className="text-primary">
+        <i className="bi bi-bag-fill me-2 " />
         Billing
       </h2>
       <Row className="g-2 mb-3">

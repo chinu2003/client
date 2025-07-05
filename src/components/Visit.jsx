@@ -31,7 +31,7 @@ export default function Visit() {
 
   return (
     <Container className="py-4">
-      <h2 className="mb-4">Visit History</h2>
+      <h2 className="mb-4 text-primary">Visit History</h2>
 
       <Row className="mb-3">
         <Col md={4}>

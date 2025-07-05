@@ -56,7 +56,7 @@ function Dashboard() {
   return (
     <div className="p-4">
       <h2 className="text-primary">
-        👋 Welcome, <b>{user.name}</b>
+           Welcome, <b>{user.name}</b>
       </h2>
       <p className="text-muted">
         Shop: <strong>{user.shop}</strong>

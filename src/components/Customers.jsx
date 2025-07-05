@@ -17,7 +17,6 @@ function Customers() {
     phone: "",
     email: "",
     address: "",
-    dob: "",
     eyePrescription: {
       right: { sph: "", cyl: "", axis: "", add: "" },
       left: { sph: "", cyl: "", axis: "", add: "" },
@@ -75,7 +74,6 @@ function Customers() {
       phone: "",
       email: "",
       address: "",
-      dob: "",
       eyePrescription: {
         right: { sph: "", cyl: "", axis: "", add: "" },
         left: { sph: "", cyl: "", axis: "", add: "" },
@@ -221,7 +219,6 @@ function Customers() {
                 <th>Phone</th>
                 <th>Email</th>
                 <th>Address</th>
-                <th>DOB</th>
                 <th>PD</th>
                 <th colSpan="4" className="text-center bg-secondary text-white">
                   Right Eye
@@ -258,7 +255,6 @@ function Customers() {
                   <td>{c.phone}</td>
                   <td>{c.email || "-"}</td>
                   <td>{c.address || "-"}</td>
-                  <td>{c.dob || "-"}</td>
                   <td>{c.eyePrescription?.pd || "-"}</td>
                   <td>{c.eyePrescription?.right?.sph || "-"}</td>
                   <td>{c.eyePrescription?.right?.cyl || "-"}</td>
@@ -362,7 +358,7 @@ function Customers() {
                 </Form.Group>
               </Col>
             </Row>
-            <Form.Group className="mb-3">
+            {/* <Form.Group className="mb-3">
               <Form.Label>Date of Birth</Form.Label>
               <Form.Control
                 type="date"
@@ -370,7 +366,7 @@ function Customers() {
                 value={form.dob}
                 onChange={handleChange}
               />
-            </Form.Group>
+            </Form.Group> */}
 
             <hr />
             <h5 className="text-primary">Eye Prescription</h5>
